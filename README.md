@@ -1,4 +1,5 @@
 # C-Coursework
+This is the first C Coursework for COMP0002.
 
 ## Implement
 - Display a 10*10 grid with several markers randomly positioned anywhere in the grid and the robot positioned at the selected home square, which can be anywhere except where the marker is.
