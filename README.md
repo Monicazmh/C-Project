@@ -4,7 +4,11 @@
 #### Download Drawapp-2.0.zip package
 #### Complie the program
 - `gcc -o filename coursework.c graphics.c`
-#### Run the program (with robot starting position (2,3) and starting direction north for 0)
+#### Run the program with line command arguments
+- 3 numbers for line command arguments
+  - 1st number for initial x-coord
+  - 2nd number for initial y-coord
+  - 3rd number for initial direction (0 for north, 1 for east, 2 for south, 3 for west)
 - e.g. `./filename 2 3 1 | java -jar drawapp-2.0.jar` meaning start the robot at position (2,3) in the grid, facing east.
 - special case (if the command line arguments are not given): `./filename | java -jar drawapp-2.0.jar` meaning start the robot at position (6,5) in the grid, facing north. 
 
